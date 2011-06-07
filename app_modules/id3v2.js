@@ -1,4 +1,5 @@
-ID3v2 = {
+var fs = require('fs'),
+    ID3v2 = {
 	parseStream: function(stream, onComplete){
 
 	    var PICTURE_TYPES = {
